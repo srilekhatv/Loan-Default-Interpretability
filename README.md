@@ -92,11 +92,9 @@ Loan_Default_Interpretability/
 │
 ├── Loan_Default_Interpretability.ipynb → Full notebook with preprocessing, modeling, explainability
 ├── README.md → Documentation (this file)
-├── dataset/ → Training Data.csv
+├── dataset/
+│ └── Training Data.csv → Sample dataset
 └── assets/ → Plots (SHAP, LIME, fairness audit, PDP)
-
-yaml
-Copy code
 
 ---
 
