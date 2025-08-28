@@ -1,4 +1,8 @@
-# 💳 FairLend: Interpretable & Fair Loan Default Prediction
+![Status](https://img.shields.io/badge/status-complete-success)
+![Tech](https://img.shields.io/badge/Made%20with-Python-blue?logo=python)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+# 💳 Loan Default Prediction and Interpretability
 
 This project builds a machine learning pipeline to **predict loan defaults** while ensuring fairness, transparency, and interpretability — aligning with ethical AI practices in finance. Beyond accuracy, the focus is on creating **auditable and bias-aware credit risk models** that financial institutions can trust.
 
@@ -89,16 +93,14 @@ Applied **post-hoc explainability** methods to build trust:
 
 ## 📂 Project Structure
 Loan_Default_Interpretability/
-│
-├── Loan_Default_Interpretability.ipynb → Full notebook with preprocessing, modeling, explainability
-├── README.md → Documentation (this file)
-├── dataset/
-│ └── Training Data.csv → Sample dataset
-└── assets/ → Plots (SHAP, LIME, fairness audit, PDP)
+- Loan_Default_Interpretability.ipynb → Full notebook with preprocessing, modeling, explainability
+- README.md → Documentation (this file)
+- Training Data.csv → Sample dataset
+- assets/ → Plots (SHAP, LIME, fairness audit, PDP)
 
 ---
 
-## 📊 Visuals (Examples)
+## 📊 Visuals
 <p align="center">
   <img src="assets/shap_summary.png" width="400" alt="SHAP Summary"/>
   <img src="assets/shap_bar.png" width="400" alt="SHAP Summary - Bar Plot"/>
